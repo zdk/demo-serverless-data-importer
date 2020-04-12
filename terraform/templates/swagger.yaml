@@ -1,0 +1,37 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: "Students Importer"
+schemes:
+  - https
+paths:
+  "/import":
+    post:
+      description: "Import students list"
+      consumes:
+        - application/json
+      responses:
+        200:
+          description: "The student list was stored successfully"
+      x-amazon-apigateway-integration:
+        uri: ${post_lambda_arn}
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        type: "aws_proxy"
+
+definitions:
+  Student:
+    type: object
+    description: "A student object"
+    properties:
+      firtName:
+        type: string
+        description: "The student first name"
+      lastName:
+        type: string
+        description: "The student last name"
+      age:
+        type: number
+        description: "The student age"
+    required:
+      - firstName

@@ -1,0 +1,22 @@
+{
+   "Students":[
+      {
+         "Name":"Stan",
+         "lastName":"Student",
+         "age":20,
+         "email":"stan@university.com"
+      },
+      {
+         "stName":"Stew",
+         "lastName":"Study",
+         "age":23,
+         "email":"stew@university.com"
+      },
+      {
+         "firstName":"Paul",
+         "lastName":"Cambridge",
+         "age":25,
+         "email":"paul@university.com"
+      }
+   ]
+}

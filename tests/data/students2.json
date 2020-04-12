@@ -1,0 +1,29 @@
+{
+   "Students":[
+      {
+         "firstName":"NaiKor",
+         "lastName":"Plaina",
+         "age":22,
+         "email":"naikor@university.com"
+      },
+      {
+         "firstName":"John",
+         "lastName":"Doe",
+         "age":21,
+         "email":"john@university.com"
+      },
+      {
+         "firstName":"Somchai",
+         "lastName":"Jaidee",
+         "age":23,
+         "email":"somchai@university.com"
+      },
+      {
+         "firstName":"Andy",
+         "lastName":"Robinson",
+         "age":20,
+         "email":"andy@university.com"
+      }
+
+   ]
+}
